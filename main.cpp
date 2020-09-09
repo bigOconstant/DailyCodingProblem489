@@ -35,7 +35,6 @@ int main(int argc, char **argv) {
                 auto subv = std::vector<int> (test1.begin() +i,test1.begin() +j);
                 if(!containsRepeated(subv)){
                         longest = subv.size();
-                        continue;
                 }
         }
     }
